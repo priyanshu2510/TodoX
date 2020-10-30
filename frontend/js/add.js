@@ -1,4 +1,4 @@
-let url= "http://localhost:5000/api/todo";
+let url= "http://18.222.131.148/api/todo";
 function create()
 {
     let message = $('#msg').val().trim();

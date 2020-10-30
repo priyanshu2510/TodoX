@@ -1,4 +1,4 @@
-let url = "http://localhost:5000/api/auth";
+let url = "http://18.222.131.148/api/auth";
 
 function verify() {
     var thisAlert = $('#username').parent();
