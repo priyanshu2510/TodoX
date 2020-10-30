@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="css/animate/animate.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todolist</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="#" class="navbar-brand">TodoX</a>
+            <div class="collapse navbar-collapse" id="todolist-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-toggle="dropdown">
+                            User
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="profileDropdown">
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dashboard -->
+    <div id="todo" class="py-5">
+        <div class="container">
+            <div class="img-content-wrapper">
+                <img src="img/1.png" class="img-fluid rounded" alt="">
+                <h4 class="dashboard-title">
+                    <a href="#">Add Todos</a> </h4>
+            </div>
+
+            <!-- Create todo project -->
+            <div id="add-todo">
+                <form action="">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="msg" placeholder="Enter List">
+                    </div>
+                    <div id="action-buttons" class="text-center">
+                        <a href="dashboard.html" class="btn btn-sm btn-general btn-cancel">Cancel</a>
+                        <a href="#" onclick=create() class="btn btn-sm btn-general btn-create">Create</a>
+                    </div>
+                    <p id="errMsg" style="color: red;"></p>
+                        <br>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="my-3">
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="text-white">Copyright &copy;priyanshu.co</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/lib/jquery-3.2.1.min.js"></script>
+	<script src="./js/lib/popper.min.js"></script>
+	<script src="./js/lib/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="js/add.js"></script>
+</body>
+
+</html>
