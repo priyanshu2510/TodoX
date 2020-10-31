@@ -1,4 +1,4 @@
-let url = "http://18.222.131.148/api/auth";
+let url = "https://priyanshu.co/api/auth";
 
 function verify() {
     var thisAlert = $('#username').parent();

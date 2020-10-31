@@ -1,4 +1,4 @@
-let url= "http://18.222.131.148/api/todo";
+let url= "https://priyanshu.co/api/todo";
 function create()
 {
     let message = $('#msg').val().trim();

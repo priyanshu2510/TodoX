@@ -1,5 +1,5 @@
-let url= "http://18.222.131.148/api/todo";
-let url1="http://18.222.131.148/api/auth";
+let url= "https://priyanshu.co/api/todo";
+let url1="https://priyanshu.co/api/auth";
 let data=[];
 $.ajax({
     url: url + "/todo-stats-left",
